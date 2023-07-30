@@ -1,0 +1,28 @@
+{
+  "name": "application_manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "node build/server.js",
+    "build": "tsup src --out-dir build",
+    "lint": "eslint src --ext .ts --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "tsup": "^7.1.0",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.3.0",
+    "@rocketseat/eslint-config": "^2.1.0",
+    "basic-ftp": "^5.0.3",
+    "fastify": "^4.20.0",
+    "zod": "^3.21.4"
+  }
+}
