@@ -1,0 +1,576 @@
+{{
+  "d": {
+    "results": [
+      {
+        "__metadata": {
+          "id": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1011183378008',DueDate=datetime'2020-09-10T00%3A00%3A00')",
+          "uri": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1011183378008',DueDate=datetime'2020-09-10T00%3A00%3A00')",
+          "type": "ZAPI_CUSTOMER_SERVICES_SRV.ContractsOpen"
+        },
+        "BillingDocument": "164121150",
+        "ContractType": "LJ",
+        "ResourceOwner": "BEMOL",
+        "Customer": "1183378",
+        "FromDependentCustomer": false,
+        "ContractNumberOriginal": "",
+        "IsRenegotiated": false,
+        "Renegotiation": true,
+        "ContractNumber": "1011183378008",
+        "NotaryOffice": false,
+        "QtyInstallment": "003",
+        "InstallmentNumber": "001",
+        "DueDate": "2020-09-10T00:00:00Z",
+        "InstallmentValue": "231.80",
+        "ContractPendent": "",
+        "BoletoURL": "",
+        "PCI": true,
+        "Status": "W",
+        "StatusDescription": "Aguardando pagamento",
+        "Mutual": false,
+        "InterestValue": "441.85",
+        "FineForDelay": "4.64",
+        "BonusDiscount": "0",
+        "InstallmentDiscount": "0.00",
+        "LoanInterest": "0.000",
+        "CET": "0.000",
+        "PaymentDetails": {
+          "__deferred": {
+            "uri": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1011183378008',DueDate=datetime'2020-09-10T00%3A00%3A00')/PaymentDetails"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1051183378084',DueDate=datetime'2020-09-20T00%3A00%3A00')",
+          "uri": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1051183378084',DueDate=datetime'2020-09-20T00%3A00%3A00')",
+          "type": "ZAPI_CUSTOMER_SERVICES_SRV.ContractsOpen"
+        },
+        "BillingDocument": "163572738",
+        "ContractType": "LJ",
+        "ResourceOwner": "BEMOL",
+        "Customer": "1183378",
+        "FromDependentCustomer": false,
+        "ContractNumberOriginal": "",
+        "IsRenegotiated": false,
+        "Renegotiation": true,
+        "ContractNumber": "1051183378084",
+        "NotaryOffice": false,
+        "QtyInstallment": "006",
+        "InstallmentNumber": "002",
+        "DueDate": "2020-09-20T00:00:00Z",
+        "InstallmentValue": "191.21",
+        "ContractPendent": "",
+        "BoletoURL": "",
+        "PCI": true,
+        "Status": "W",
+        "StatusDescription": "Aguardando pagamento",
+        "Mutual": false,
+        "InterestValue": "362.25",
+        "FineForDelay": "3.82",
+        "BonusDiscount": "0",
+        "InstallmentDiscount": "0.00",
+        "LoanInterest": "0.000",
+        "CET": "0.000",
+        "PaymentDetails": {
+          "__deferred": {
+            "uri": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1051183378084',DueDate=datetime'2020-09-20T00%3A00%3A00')/PaymentDetails"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1011183378005',DueDate=datetime'2020-09-22T00%3A00%3A00')",
+          "uri": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1011183378005',DueDate=datetime'2020-09-22T00%3A00%3A00')",
+          "type": "ZAPI_CUSTOMER_SERVICES_SRV.ContractsOpen"
+        },
+        "BillingDocument": "163626432",
+        "ContractType": "LJ",
+        "ResourceOwner": "BEMOL",
+        "Customer": "1183378",
+        "FromDependentCustomer": false,
+        "ContractNumberOriginal": "",
+        "IsRenegotiated": false,
+        "Renegotiation": true,
+        "ContractNumber": "1011183378005",
+        "NotaryOffice": false,
+        "QtyInstallment": "006",
+        "InstallmentNumber": "002",
+        "DueDate": "2020-09-22T00:00:00Z",
+        "InstallmentValue": "181.87",
+        "ContractPendent": "",
+        "BoletoURL": "",
+        "PCI": true,
+        "Status": "L",
+        "StatusDescription": "Parcela atrasada",
+        "Mutual": false,
+        "InterestValue": "344.13",
+        "FineForDelay": "3.64",
+        "BonusDiscount": "0",
+        "InstallmentDiscount": "0.00",
+        "LoanInterest": "0.000",
+        "CET": "0.000",
+        "PaymentDetails": {
+          "__deferred": {
+            "uri": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1011183378005',DueDate=datetime'2020-09-22T00%3A00%3A00')/PaymentDetails"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1011183378007',DueDate=datetime'2020-09-27T00%3A00%3A00')",
+          "uri": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1011183378007',DueDate=datetime'2020-09-27T00%3A00%3A00')",
+          "type": "ZAPI_CUSTOMER_SERVICES_SRV.ContractsOpen"
+        },
+        "BillingDocument": "163737573",
+        "ContractType": "LJ",
+        "ResourceOwner": "BEMOL",
+        "Customer": "1183378",
+        "FromDependentCustomer": false,
+        "ContractNumberOriginal": "",
+        "IsRenegotiated": false,
+        "Renegotiation": true,
+        "ContractNumber": "1011183378007",
+        "NotaryOffice": false,
+        "QtyInstallment": "003",
+        "InstallmentNumber": "002",
+        "DueDate": "2020-09-27T00:00:00Z",
+        "InstallmentValue": "309.66",
+        "ContractPendent": "",
+        "BoletoURL": "",
+        "PCI": true,
+        "Status": "W",
+        "StatusDescription": "Aguardando pagamento",
+        "Mutual": false,
+        "InterestValue": "584.12",
+        "FineForDelay": "6.19",
+        "BonusDiscount": "0",
+        "InstallmentDiscount": "0.00",
+        "LoanInterest": "0.000",
+        "CET": "0.000",
+        "PaymentDetails": {
+          "__deferred": {
+            "uri": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1011183378007',DueDate=datetime'2020-09-27T00%3A00%3A00')/PaymentDetails"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1011183378008',DueDate=datetime'2020-10-10T00%3A00%3A00')",
+          "uri": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1011183378008',DueDate=datetime'2020-10-10T00%3A00%3A00')",
+          "type": "ZAPI_CUSTOMER_SERVICES_SRV.ContractsOpen"
+        },
+        "BillingDocument": "164121150",
+        "ContractType": "LJ",
+        "ResourceOwner": "BEMOL",
+        "Customer": "1183378",
+        "FromDependentCustomer": false,
+        "ContractNumberOriginal": "",
+        "IsRenegotiated": false,
+        "Renegotiation": true,
+        "ContractNumber": "1011183378008",
+        "NotaryOffice": false,
+        "QtyInstallment": "003",
+        "InstallmentNumber": "002",
+        "DueDate": "2020-10-10T00:00:00Z",
+        "InstallmentValue": "231.80",
+        "ContractPendent": "",
+        "BoletoURL": "",
+        "PCI": true,
+        "Status": "W",
+        "StatusDescription": "Aguardando pagamento",
+        "Mutual": false,
+        "InterestValue": "433.74",
+        "FineForDelay": "4.64",
+        "BonusDiscount": "0",
+        "InstallmentDiscount": "0.00",
+        "LoanInterest": "0.000",
+        "CET": "0.000",
+        "PaymentDetails": {
+          "__deferred": {
+            "uri": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1011183378008',DueDate=datetime'2020-10-10T00%3A00%3A00')/PaymentDetails"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1051183378084',DueDate=datetime'2020-10-20T00%3A00%3A00')",
+          "uri": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1051183378084',DueDate=datetime'2020-10-20T00%3A00%3A00')",
+          "type": "ZAPI_CUSTOMER_SERVICES_SRV.ContractsOpen"
+        },
+        "BillingDocument": "163572738",
+        "ContractType": "LJ",
+        "ResourceOwner": "BEMOL",
+        "Customer": "1183378",
+        "FromDependentCustomer": false,
+        "ContractNumberOriginal": "",
+        "IsRenegotiated": false,
+        "Renegotiation": true,
+        "ContractNumber": "1051183378084",
+        "NotaryOffice": false,
+        "QtyInstallment": "006",
+        "InstallmentNumber": "003",
+        "DueDate": "2020-10-20T00:00:00Z",
+        "InstallmentValue": "191.21",
+        "ContractPendent": "",
+        "BoletoURL": "",
+        "PCI": true,
+        "Status": "W",
+        "StatusDescription": "Aguardando pagamento",
+        "Mutual": false,
+        "InterestValue": "355.55",
+        "FineForDelay": "3.82",
+        "BonusDiscount": "0",
+        "InstallmentDiscount": "0.00",
+        "LoanInterest": "0.000",
+        "CET": "0.000",
+        "PaymentDetails": {
+          "__deferred": {
+            "uri": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1051183378084',DueDate=datetime'2020-10-20T00%3A00%3A00')/PaymentDetails"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1011183378005',DueDate=datetime'2020-10-22T00%3A00%3A00')",
+          "uri": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1011183378005',DueDate=datetime'2020-10-22T00%3A00%3A00')",
+          "type": "ZAPI_CUSTOMER_SERVICES_SRV.ContractsOpen"
+        },
+        "BillingDocument": "163626432",
+        "ContractType": "LJ",
+        "ResourceOwner": "BEMOL",
+        "Customer": "1183378",
+        "FromDependentCustomer": false,
+        "ContractNumberOriginal": "",
+        "IsRenegotiated": false,
+        "Renegotiation": true,
+        "ContractNumber": "1011183378005",
+        "NotaryOffice": false,
+        "QtyInstallment": "006",
+        "InstallmentNumber": "003",
+        "DueDate": "2020-10-22T00:00:00Z",
+        "InstallmentValue": "181.87",
+        "ContractPendent": "",
+        "BoletoURL": "",
+        "PCI": true,
+        "Status": "L",
+        "StatusDescription": "Parcela atrasada",
+        "Mutual": false,
+        "InterestValue": "337.76",
+        "FineForDelay": "3.64",
+        "BonusDiscount": "0",
+        "InstallmentDiscount": "0.00",
+        "LoanInterest": "0.000",
+        "CET": "0.000",
+        "PaymentDetails": {
+          "__deferred": {
+            "uri": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1011183378005',DueDate=datetime'2020-10-22T00%3A00%3A00')/PaymentDetails"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1011183378007',DueDate=datetime'2020-10-27T00%3A00%3A00')",
+          "uri": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1011183378007',DueDate=datetime'2020-10-27T00%3A00%3A00')",
+          "type": "ZAPI_CUSTOMER_SERVICES_SRV.ContractsOpen"
+        },
+        "BillingDocument": "163737573",
+        "ContractType": "LJ",
+        "ResourceOwner": "BEMOL",
+        "Customer": "1183378",
+        "FromDependentCustomer": false,
+        "ContractNumberOriginal": "",
+        "IsRenegotiated": false,
+        "Renegotiation": true,
+        "ContractNumber": "1011183378007",
+        "NotaryOffice": false,
+        "QtyInstallment": "003",
+        "InstallmentNumber": "003",
+        "DueDate": "2020-10-27T00:00:00Z",
+        "InstallmentValue": "309.68",
+        "ContractPendent": "",
+        "BoletoURL": "",
+        "PCI": true,
+        "Status": "W",
+        "StatusDescription": "Aguardando pagamento",
+        "Mutual": false,
+        "InterestValue": "573.32",
+        "FineForDelay": "6.19",
+        "BonusDiscount": "0",
+        "InstallmentDiscount": "0.00",
+        "LoanInterest": "0.000",
+        "CET": "0.000",
+        "PaymentDetails": {
+          "__deferred": {
+            "uri": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1011183378007',DueDate=datetime'2020-10-27T00%3A00%3A00')/PaymentDetails"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1011183378008',DueDate=datetime'2020-11-10T00%3A00%3A00')",
+          "uri": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1011183378008',DueDate=datetime'2020-11-10T00%3A00%3A00')",
+          "type": "ZAPI_CUSTOMER_SERVICES_SRV.ContractsOpen"
+        },
+        "BillingDocument": "164121150",
+        "ContractType": "LJ",
+        "ResourceOwner": "BEMOL",
+        "Customer": "1183378",
+        "FromDependentCustomer": false,
+        "ContractNumberOriginal": "",
+        "IsRenegotiated": false,
+        "Renegotiation": true,
+        "ContractNumber": "1011183378008",
+        "NotaryOffice": false,
+        "QtyInstallment": "003",
+        "InstallmentNumber": "003",
+        "DueDate": "2020-11-10T00:00:00Z",
+        "InstallmentValue": "231.81",
+        "ContractPendent": "",
+        "BoletoURL": "",
+        "PCI": true,
+        "Status": "W",
+        "StatusDescription": "Aguardando pagamento",
+        "Mutual": false,
+        "InterestValue": "425.37",
+        "FineForDelay": "4.64",
+        "BonusDiscount": "0",
+        "InstallmentDiscount": "0.00",
+        "LoanInterest": "0.000",
+        "CET": "0.000",
+        "PaymentDetails": {
+          "__deferred": {
+            "uri": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1011183378008',DueDate=datetime'2020-11-10T00%3A00%3A00')/PaymentDetails"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1051183378084',DueDate=datetime'2020-11-20T00%3A00%3A00')",
+          "uri": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1051183378084',DueDate=datetime'2020-11-20T00%3A00%3A00')",
+          "type": "ZAPI_CUSTOMER_SERVICES_SRV.ContractsOpen"
+        },
+        "BillingDocument": "163572738",
+        "ContractType": "LJ",
+        "ResourceOwner": "BEMOL",
+        "Customer": "1183378",
+        "FromDependentCustomer": false,
+        "ContractNumberOriginal": "",
+        "IsRenegotiated": false,
+        "Renegotiation": true,
+        "ContractNumber": "1051183378084",
+        "NotaryOffice": false,
+        "QtyInstallment": "006",
+        "InstallmentNumber": "004",
+        "DueDate": "2020-11-20T00:00:00Z",
+        "InstallmentValue": "191.21",
+        "ContractPendent": "",
+        "BoletoURL": "",
+        "PCI": true,
+        "Status": "W",
+        "StatusDescription": "Aguardando pagamento",
+        "Mutual": false,
+        "InterestValue": "348.64",
+        "FineForDelay": "3.82",
+        "BonusDiscount": "0",
+        "InstallmentDiscount": "0.00",
+        "LoanInterest": "0.000",
+        "CET": "0.000",
+        "PaymentDetails": {
+          "__deferred": {
+            "uri": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1051183378084',DueDate=datetime'2020-11-20T00%3A00%3A00')/PaymentDetails"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1011183378005',DueDate=datetime'2020-11-22T00%3A00%3A00')",
+          "uri": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1011183378005',DueDate=datetime'2020-11-22T00%3A00%3A00')",
+          "type": "ZAPI_CUSTOMER_SERVICES_SRV.ContractsOpen"
+        },
+        "BillingDocument": "163626432",
+        "ContractType": "LJ",
+        "ResourceOwner": "BEMOL",
+        "Customer": "1183378",
+        "FromDependentCustomer": false,
+        "ContractNumberOriginal": "",
+        "IsRenegotiated": false,
+        "Renegotiation": true,
+        "ContractNumber": "1011183378005",
+        "NotaryOffice": false,
+        "QtyInstallment": "006",
+        "InstallmentNumber": "004",
+        "DueDate": "2020-11-22T00:00:00Z",
+        "InstallmentValue": "181.87",
+        "ContractPendent": "",
+        "BoletoURL": "",
+        "PCI": true,
+        "Status": "L",
+        "StatusDescription": "Parcela atrasada",
+        "Mutual": false,
+        "InterestValue": "331.19",
+        "FineForDelay": "3.64",
+        "BonusDiscount": "0",
+        "InstallmentDiscount": "0.00",
+        "LoanInterest": "0.000",
+        "CET": "0.000",
+        "PaymentDetails": {
+          "__deferred": {
+            "uri": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1011183378005',DueDate=datetime'2020-11-22T00%3A00%3A00')/PaymentDetails"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1051183378084',DueDate=datetime'2020-12-20T00%3A00%3A00')",
+          "uri": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1051183378084',DueDate=datetime'2020-12-20T00%3A00%3A00')",
+          "type": "ZAPI_CUSTOMER_SERVICES_SRV.ContractsOpen"
+        },
+        "BillingDocument": "163572738",
+        "ContractType": "LJ",
+        "ResourceOwner": "BEMOL",
+        "Customer": "1183378",
+        "FromDependentCustomer": false,
+        "ContractNumberOriginal": "",
+        "IsRenegotiated": false,
+        "Renegotiation": true,
+        "ContractNumber": "1051183378084",
+        "NotaryOffice": false,
+        "QtyInstallment": "006",
+        "InstallmentNumber": "005",
+        "DueDate": "2020-12-20T00:00:00Z",
+        "InstallmentValue": "191.21",
+        "ContractPendent": "",
+        "BoletoURL": "",
+        "PCI": true,
+        "Status": "W",
+        "StatusDescription": "Aguardando pagamento",
+        "Mutual": false,
+        "InterestValue": "341.95",
+        "FineForDelay": "3.82",
+        "BonusDiscount": "0",
+        "InstallmentDiscount": "0.00",
+        "LoanInterest": "0.000",
+        "CET": "0.000",
+        "PaymentDetails": {
+          "__deferred": {
+            "uri": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1051183378084',DueDate=datetime'2020-12-20T00%3A00%3A00')/PaymentDetails"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1011183378005',DueDate=datetime'2020-12-22T00%3A00%3A00')",
+          "uri": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1011183378005',DueDate=datetime'2020-12-22T00%3A00%3A00')",
+          "type": "ZAPI_CUSTOMER_SERVICES_SRV.ContractsOpen"
+        },
+        "BillingDocument": "163626432",
+        "ContractType": "LJ",
+        "ResourceOwner": "BEMOL",
+        "Customer": "1183378",
+        "FromDependentCustomer": false,
+        "ContractNumberOriginal": "",
+        "IsRenegotiated": false,
+        "Renegotiation": true,
+        "ContractNumber": "1011183378005",
+        "NotaryOffice": false,
+        "QtyInstallment": "006",
+        "InstallmentNumber": "005",
+        "DueDate": "2020-12-22T00:00:00Z",
+        "InstallmentValue": "181.87",
+        "ContractPendent": "",
+        "BoletoURL": "",
+        "PCI": true,
+        "Status": "L",
+        "StatusDescription": "Parcela atrasada",
+        "Mutual": false,
+        "InterestValue": "324.82",
+        "FineForDelay": "3.64",
+        "BonusDiscount": "0",
+        "InstallmentDiscount": "0.00",
+        "LoanInterest": "0.000",
+        "CET": "0.000",
+        "PaymentDetails": {
+          "__deferred": {
+            "uri": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1011183378005',DueDate=datetime'2020-12-22T00%3A00%3A00')/PaymentDetails"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1051183378084',DueDate=datetime'2021-01-20T00%3A00%3A00')",
+          "uri": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1051183378084',DueDate=datetime'2021-01-20T00%3A00%3A00')",
+          "type": "ZAPI_CUSTOMER_SERVICES_SRV.ContractsOpen"
+        },
+        "BillingDocument": "163572738",
+        "ContractType": "LJ",
+        "ResourceOwner": "BEMOL",
+        "Customer": "1183378",
+        "FromDependentCustomer": false,
+        "ContractNumberOriginal": "",
+        "IsRenegotiated": false,
+        "Renegotiation": true,
+        "ContractNumber": "1051183378084",
+        "NotaryOffice": false,
+        "QtyInstallment": "006",
+        "InstallmentNumber": "006",
+        "DueDate": "2021-01-20T00:00:00Z",
+        "InstallmentValue": "191.16",
+        "ContractPendent": "",
+        "BoletoURL": "",
+        "PCI": true,
+        "Status": "W",
+        "StatusDescription": "Aguardando pagamento",
+        "Mutual": false,
+        "InterestValue": "334.94",
+        "FineForDelay": "3.82",
+        "BonusDiscount": "0",
+        "InstallmentDiscount": "0.00",
+        "LoanInterest": "0.000",
+        "CET": "0.000",
+        "PaymentDetails": {
+          "__deferred": {
+            "uri": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1051183378084',DueDate=datetime'2021-01-20T00%3A00%3A00')/PaymentDetails"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1011183378005',DueDate=datetime'2021-01-22T00%3A00%3A00')",
+          "uri": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1011183378005',DueDate=datetime'2021-01-22T00%3A00%3A00')",
+          "type": "ZAPI_CUSTOMER_SERVICES_SRV.ContractsOpen"
+        },
+        "BillingDocument": "163626432",
+        "ContractType": "LJ",
+        "ResourceOwner": "BEMOL",
+        "Customer": "1183378",
+        "FromDependentCustomer": false,
+        "ContractNumberOriginal": "",
+        "IsRenegotiated": false,
+        "Renegotiation": true,
+        "ContractNumber": "1011183378005",
+        "NotaryOffice": false,
+        "QtyInstallment": "006",
+        "InstallmentNumber": "006",
+        "DueDate": "2021-01-22T00:00:00Z",
+        "InstallmentValue": "181.87",
+        "ContractPendent": "",
+        "BoletoURL": "",
+        "PCI": true,
+        "Status": "L",
+        "StatusDescription": "Parcela atrasada",
+        "Mutual": false,
+        "InterestValue": "318.24",
+        "FineForDelay": "3.64",
+        "BonusDiscount": "0",
+        "InstallmentDiscount": "0.00",
+        "LoanInterest": "0.000",
+        "CET": "0.000",
+        "PaymentDetails": {
+          "__deferred": {
+            "uri": "http://10.106.10.4:8000/sap/opu/odata/SAP/ZAPI_CUSTOMER_SERVICES_SRV/ContractsOpen(Customer='1183378',ContractNumber='1011183378005',DueDate=datetime'2021-01-22T00%3A00%3A00')/PaymentDetails"
+          }
+        }
+      }
+    ]
+  }
+}}

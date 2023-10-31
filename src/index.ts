@@ -1,35 +1,17 @@
-import * as ftp from 'basic-ftp';
-import path from 'path';
+import { prisma } from './libs/prisma';
 
-async function tfpExample() {
-	const client = new ftp.Client();
-	client.ftp.verbose = true;
-
-	try {
-		await client.access({
-			host: '192.168.56.1',
-			user: 'math',
-			password: 'Mathews@2490195',
-			secure: false, // true for FTPS and false for FT
-		});
-
-		console.log(await client.list());
-
-		const localPath = path.resolve(process.cwd(), 'tmp');
-
-		client.trackProgress((info) => {
-			console.log('File', info.name);
-			console.log('Type', info.type);
-			console.log('Transferred', info.bytes);
-			console.log('Transferred Overall', info.bytesOverall);
-		});
-
-		await client.uploadFrom(localPath, '/README.md');
-	} catch (error) {
+const result = prisma.storeAppVersion
+	.findUnique({
+		where: {
+			id_store_id_app_version: {
+				id_store: '5f0f2aaf-4997-466d-9319-feeeca15eab7',
+				id_app_version: 'c437787f-b255-4524-8a1d-33664704fbec',
+			},
+		},
+	})
+	.then((response) => {
+		console.log(response);
+	})
+	.catch((error) => {
 		console.log(error);
-	}
-
-	client.close();
-}
-
-tfpExample();
+	});

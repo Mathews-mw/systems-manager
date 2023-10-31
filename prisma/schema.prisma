@@ -1,0 +1,105 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Store {
+  id      String @id @default(uuid())
+  id_loja Int    @unique
+  name    String
+  ip      String @unique
+
+  StoreAppVersion StoreAppVersion[]
+
+  @@map("stores")
+}
+
+enum AppType {
+  EXE
+  DELPHI
+  MOBILE
+  WEB_APP
+  LAUNCHER
+}
+
+model Application {
+  id          String    @id @default(uuid())
+  name        String    @unique
+  app_type    AppType
+  description String?
+  created_at  DateTime  @default(now())
+  updated_at  DateTime?
+
+  AppVersion      AppVersion[]
+  StoreAppVersion StoreAppVersion[]
+  RemotePaths     RemotePaths[]
+
+  @@map("applications")
+}
+
+enum VersionType {
+  N //Normal
+  P // Prioridade
+}
+
+model AppVersion {
+  id             String      @id @default(uuid())
+  application_id String
+  file_name      String      @unique
+  version        String
+  version_type   VersionType
+  remote_path_id String
+  release_at     DateTime    @default(now())
+
+  StoreAppVersion StoreAppVersion[]
+
+  application Application @relation(fields: [application_id], references: [id], onUpdate: Cascade, onDelete: Cascade)
+  remotePaths RemotePaths @relation(fields: [remote_path_id], references: [id])
+
+  @@unique([application_id, version])
+  @@map("app_version")
+}
+
+model StoreAppVersion {
+  id             String   @id @default(uuid())
+  store_id       String
+  application_id String
+  app_version_id String
+  updated_at     DateTime @default(now())
+
+  store       Store       @relation(fields: [store_id], references: [id], onUpdate: Cascade, onDelete: Cascade)
+  application Application @relation(fields: [application_id], references: [id], onUpdate: Cascade, onDelete: NoAction)
+  appVersion  AppVersion  @relation(fields: [app_version_id], references: [id], onUpdate: Cascade, onDelete: NoAction)
+
+  @@unique([store_id, application_id])
+  @@map("store_app_version")
+}
+
+model RemotePaths {
+  id             String @id @default(uuid())
+  application_id String @unique
+  remote_path    String
+
+  application Application  @relation(fields: [application_id], references: [id], onUpdate: Cascade, onDelete: Cascade)
+  appVersion  AppVersion[]
+
+  @@map("remote_paths")
+}
+
+model Notification {
+  id           String    @id @default(uuid())
+  recipient_id String
+  title        String
+  content      String
+  reade_at     DateTime?
+  created_at   DateTime  @default(now())
+
+  @@map("notifications")
+}

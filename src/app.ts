@@ -1,6 +1,8 @@
 import fastify from 'fastify';
 import { ZodError } from 'zod';
 import cors from '@fastify/cors';
+import multer from 'fastify-multer';
+import formbody from '@fastify/formbody';
 
 import { env } from './env';
 import { routes } from './routes/index.routes';
@@ -11,6 +13,9 @@ app.register(cors, {
 	origin: '*',
 	methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'],
 });
+
+app.register(formbody);
+app.register(multer.contentParser);
 
 app.register(routes, { prefix: '/api' });
 
